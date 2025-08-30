@@ -1,4 +1,4 @@
-package model;
+package com.estudies.desing_patterns_spring.model;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

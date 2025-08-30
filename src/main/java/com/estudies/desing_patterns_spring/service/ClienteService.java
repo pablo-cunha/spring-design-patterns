@@ -1,6 +1,6 @@
-package service;
+package com.estudies.desing_patterns_spring.service;
 
-import model.Cliente;
+import com.estudies.desing_patterns_spring.model.Cliente;
 
 public interface ClienteService {
 

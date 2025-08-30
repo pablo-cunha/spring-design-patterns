@@ -1,16 +1,19 @@
-package service.impl;
+package com.estudies.desing_patterns_spring.service.impl;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-import model.Cliente;
-import model.ClienteRepository;
-import model.Endereco;
-import model.EnderecoRepository;
-import service.ClienteService;
-import service.ViaCepService;
+import com.estudies.desing_patterns_spring.model.Cliente;
+import com.estudies.desing_patterns_spring.model.ClienteRepository;
+import com.estudies.desing_patterns_spring.model.Endereco;
+import com.estudies.desing_patterns_spring.model.EnderecoRepository;
+import com.estudies.desing_patterns_spring.service.ClienteService;
+import com.estudies.desing_patterns_spring.service.ViaCepService;
 
+
+@Service
 public class ClienteServiceImpl implements ClienteService {
 
     @Autowired

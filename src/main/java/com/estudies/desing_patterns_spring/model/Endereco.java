@@ -1,4 +1,4 @@
-package model;
+package com.estudies.desing_patterns_spring.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
